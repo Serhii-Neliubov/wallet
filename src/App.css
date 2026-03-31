@@ -1,0 +1,43 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; }
+body { background: #f2f2f7; }
+
+.screen { max-width: 390px; margin: 0 auto; background: #f2f2f7; min-height: 100vh; padding-bottom: 2rem; }
+.top-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px 16px 0; }
+.card { background: #fff; border-radius: 16px; padding: 14px; }
+.card-label { font-size: 12px; color: #8e8e93; font-weight: 400; margin-bottom: 4px; }
+.card-value { font-size: 24px; font-weight: 600; color: #1c1c1e; }
+.card-sub { font-size: 12px; color: #8e8e93; margin-top: 3px; }
+.card-right { display: flex; flex-direction: column; justify-content: space-between; }
+.no-pay-label { font-size: 12px; font-weight: 600; color: #1c1c1e; margin-bottom: 4px; }
+.no-pay-desc { font-size: 12px; color: #8e8e93; line-height: 1.4; }
+.check-circle { width: 40px; height: 40px; border-radius: 50%; border: 2px solid #d1d1d6; display: flex; align-items: center; justify-content: center; align-self: flex-end; }
+.bottom-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 12px 16px 0; }
+.transactions-section { padding: 16px 16px 0; }
+.section-title { font-size: 20px; font-weight: 700; color: #1c1c1e; margin-bottom: 12px; }
+.tx-list { background: #fff; border-radius: 16px; overflow: hidden; }
+.tx-row { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 0.5px solid #f2f2f7; cursor: pointer; }
+.tx-row:last-child { border-bottom: none; }
+.tx-row:active { background: #f2f2f7; }
+.tx-icon { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #fff; }
+.tx-body { flex: 1; min-width: 0; }
+.tx-name { font-size: 15px; font-weight: 500; color: #1c1c1e; }
+.tx-desc { font-size: 12px; color: #8e8e93; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+.tx-right { text-align: right; flex-shrink: 0; }
+.tx-amount { font-size: 15px; font-weight: 500; color: #1c1c1e; }
+.tx-amount.positive { color: #30d158; }
+.tx-cashback { font-size: 11px; color: #8e8e93; margin-top: 2px; }
+.chevron { color: #c7c7cc; margin-left: 6px; font-size: 12px; }
+
+.detail-screen { max-width: 390px; margin: 0 auto; background: #f2f2f7; min-height: 100vh; }
+.detail-header { padding: 16px; display: flex; align-items: center; }
+.back-btn { display: flex; align-items: center; gap: 4px; background: none; border: none; cursor: pointer; color: #007aff; font-size: 17px; padding: 0; }
+.detail-amount { text-align: center; padding: 32px 24px 8px; font-size: 48px; font-weight: 700; color: #1c1c1e; }
+.detail-merchant { text-align: center; color: #8e8e93; font-size: 15px; padding-bottom: 24px; }
+.detail-card { background: #fff; border-radius: 16px; margin: 0 16px; overflow: hidden; }
+.detail-row { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; border-bottom: 0.5px solid #f2f2f7; }
+.detail-row:last-child { border-bottom: none; }
+.detail-row-label { font-size: 15px; font-weight: 500; color: #1c1c1e; }
+.detail-row-val { font-size: 15px; color: #8e8e93; }
+.status-block { padding: 16px; border-bottom: 0.5px solid #f2f2f7; }
+.status-title { font-size: 15px; font-weight: 500; color: #1c1c1e; }
+.status-sub { font-size: 13px; color: #8e8e93; margin-top: 2px; }
