@@ -6,7 +6,7 @@ React + TypeScript wallet app with two screens: TransactionsList and Transaction
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 ## Structure
