@@ -1,4 +1,4 @@
-# Wallet App – Test Task
+# Wallet App
 
 React + TypeScript wallet app with two screens: TransactionsList and TransactionDetail.
 
